@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio HTML</title>
+    </head>
+    <body>
+        <header id="Inicio">
+            <h1>Nicolás Díaz Meza</h1>
+            <img src="Foto.jpg" alt="Foto Personal" width="200px">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#Mensaje de Bienvenida">Mensaje de Bienvenida</a></li>
+                <li><a href="#Datos Biográficos">Datos Biográficos</a></li>
+                <li><a href="#Datos Académicos">Datos Académicos</a></li>
+                <li>
+                    <a href="#Sitios de Interés">Sitios de Interés</a>
+                    <ul>
+                        <li><a href="#Videos Favoritos">Videos Favoritos</a></li>
+                        <li><a href="#Enlaces de Interés">Enlaces de Interés</a></li>
+                        <li><a href="#Imágenes">Imágenes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Formulario de Contacto">Formulario de Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="Mensaje de Bienvenida">
+                <h2>Mensaje de Bienvenida</h2>
+                <a href="#Inicio">[Volver arriba]</a>
+                <p>Hola, mi nombre es Nicolás, soy estudiante de Ingeniería Electrónica e Ingeniería de Sistemas. Bienvenido a mi página Web.</p>
+            </section>
+            <section id="Datos Biográficos">
+                <h2>Datos Biográficos</h2>
+                <a href="#Inicio">[Volver arriba]</a>
+                <table>
+                    <tr>
+                        <th>Nombre completo</th>
+                        <td>Nicolás Alberto Díaz Meza</td>
+                    </tr>
+                    <tr>
+                        <th>Edad</th>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <th>Género</th>
+                        <td>Masculino</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha de nacimiento</th>
+                        <td><time datetime="1998-09-09">9 de septiembre de 1998</time></td>
+                    </tr>
+                    <tr>
+                        <th>Lugar de Nacimiento</th>
+                        <td>Bogotá, Colombia</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="Datos Académicos">
+                <h2>Datos Académicos</h2>
+                <a href="#Inicio">[Volver arriba]</a>
+                <ul>
+                    <li><strong>Educación básica y secundaria: </strong>Liceo de Cervantes el Retiro (2004-2015)</li>
+                    <li><strong>Programa principal: </strong>Ingeniería Electrónica, Universidad de los Andes (2016-)</li>
+                    <li><strong>Doble programa: </strong>Ingeniería de Sistemas, Universidad de los Andes (2017-)</li>
+                </ul>
+            </section>
+            <section id="Sitios de Interés">
+                <h2>Sitios de Interés</h2>
+                <a href="#Inicio">[Volver arriba]</a>
+                <p>A continuación hay algunas cosas que me gustan</p>
+                <section id="Videos Favoritos">
+                    <h3>Videos Favoritos</h3>
+                    <a href="#Inicio">[Volver arriba]</a>
+                    <p>Algunos de mis videos favoritos.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GDrBIKOR01c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wMBxAL7pviQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5ng4zKNwUCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section id="Enlaces de Interés">
+                    <h3>Enlaces de Interés</h3>
+                    <a href="#Inicio">[Volver arriba]</a>
+                    <p>Algunos enlaces a mis sitios preferidos.</p>
+                    <ul>
+                        <li><a href="https://www.whereisroadster.com/index.html">Where is Starman?:</a> un sitio para mirar en dónde está el Tesla Roadster que se lanzó al espacio en 2018.</li>
+                        <li><a href="https://mars.nasa.gov/mars2020/">Mars 2020: Perseverance Rover:</a> un sitio para seguir el viaje del Rover Perseverance con destino a Marte.</li>
+                        <li><a href="https://pointerpointer.com/">Pointer Pointer:</a> un sitio en el que gente apunta a tu cursor.</li>
+                    </ul>
+                </section>
+                <section id="Imágenes">
+                    <h3>Imágenes</h3>
+                    <a href="#Inicio">[Volver arriba]</a>
+                    <p>Fotos que me gustan:</p>
+                    <ol>
+                        <li>
+                            <p>Una aurora boreal en el polo norte de Júpiter:</p>
+                            <img src="img1.jpg" alt="Júpiter" height="500px">
+                        </li>
+                        <li>
+                            <p>La primera imagen de un agujero negro:</p>
+                            <img src="img2.png" alt="Agujero Negro" height="500px">
+                        </li>
+                        <li>
+                            <p>Una foto de Nueva York de hace más de 100 años, colorizada y en alta resolución:</p>
+                            <img src="img3.jpg" alt="Nueva York" height="500px">
+                        </li>
+                    </ol>
+
+                </section>
+            </section>
+            <section id="Formulario de Contacto">
+                <h2>Formulario de Contacto</h2>
+                <a href="#Inicio">[Volver arriba]</a>
+                <form>
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre_usuario">
+                        </li>
+                        <li>
+                            <label for="correo">Correo:</label>
+                            <input type="email" id="correo" name="correo_usuario">
+                        </li>
+                        <li>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje_usuario"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <address>
+                <p>
+                    Nicolás Díaz <br>
+                    Bogotá, Colombia
+                </p>
+                <ul>
+                    <li>Cel: 3108010263</li>
+                    <li>Email: <a href="mailto:na.diaz@uniandes.edu.co">na.diaz@uniandes.edu.co</a></li>
+                </ul>
+            </address>
+            <a href="#Inicio">[Volver arriba]</a>
+        </footer>
+    </body>
+</html>
